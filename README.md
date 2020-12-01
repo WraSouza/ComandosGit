@@ -20,5 +20,9 @@ git status
 # Verificar log dos commits realizados
  
  git log
+ 
+ # Resumo dos commit
+ 
+ git log --oneline
 
 
