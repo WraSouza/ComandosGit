@@ -17,6 +17,10 @@ git status
  
  git add "nome_do_arquivo"
  
+ # Realizar commit dos arquivos
+ 
+ git commit -m "frase de identificação"
+ 
 # Verificar log dos commits realizados
  
  git log
