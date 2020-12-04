@@ -42,5 +42,19 @@ git status
  git rm nome_do_arquivo
  
  Obs.: É necessário realizar o commit depois de deletar o arquivo
+ 
+ # Verificar o que foi alterado
+ 
+ git diff --staged
+ 
+ *Isso irá mostrar o que foi alterado antes de ser commitado. Pode ajudar o desenvolvedor a ver o que tem de diferente antes de realizar o commit.
+ 
+ # Verificar diferença entre o estado atual e um determinado commit
+ 
+ git diff hash_id_do_commit_desejado
+ 
+ # Verificar diferença entre dois commits, que não seja o atual
+ 
+ git diff hashid_commit_mais_antigo..hashid_commit_mais_novo
 
 
