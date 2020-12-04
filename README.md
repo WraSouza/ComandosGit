@@ -34,5 +34,13 @@ git status
  git mv nome_do_arquivo novo_nome_do_arquivo
  
  Obs.: Realizar a alteração pelo git já deixa o arquivo pronto para realizar o commit.
+ 
+ Obs2.: É necessário realizar o commit depois de renomear o arquivo
+ 
+ # Deletar arquivo
+ 
+ git rm nome_do_arquivo
+ 
+ Obs.: É necessário realizar o commit depois de deletar o arquivo
 
 
