@@ -28,5 +28,11 @@ git status
  # Resumo dos commit
  
  git log --oneline
+ 
+ # Renomear nome do Arquivo pelo Git
+ 
+ git mv nome_do_arquivo novo_nome_do_arquivo
+ 
+ Obs.: Realizar a alteração pelo git já deixa o arquivo pronto para realizar o commit.
 
 
