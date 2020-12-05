@@ -1,14 +1,14 @@
 # ComandosGit
-# Verificar se existem arquivos modificados ou que não estejam em estado tracked.
+## Verificar se existem arquivos modificados ou que não estejam em estado tracked.
 
 git status
 
-# Configurar um usuário no diretório local
+## Configurar um usuário no diretório local
 
  git config user.name "nome_da_pessoa"
  git config user.email "e-mail da pessoa"
  
-# Configurar um usuário globalmente
+## Configurar um usuário globalmente
  
  git config --global user.name "nome_da_pessoa" (sem aspas)
  git config --global user.email "e-mail da pessoa" (sem aspas)
