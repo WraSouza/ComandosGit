@@ -56,5 +56,9 @@ git status
 ## Verificar diferença entre dois commits, que não seja o atual
  
  git diff hashid_commit_mais_antigo..hashid_commit_mais_novo
+ 
+ ##Adicionar arquivos no último commit
+ 
+ git commit --amend -m "frase_qualquer_de_identificação"
 
 
