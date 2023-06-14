@@ -32,11 +32,11 @@ git status
 ## Buscar Commits por Data
 É possível buscar commits antes ou depois de uma determinada data
 
-ANTES
+ANTES: 
 git log --before="data_desejada"
 Ex.: git log --before="2023-05-03"
 
-DEPOIS
+DEPOIS: 
 git log --after="data_desejada"
 Ex.: git log --before="2023-05-03"
 
