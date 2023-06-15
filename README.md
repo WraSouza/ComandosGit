@@ -29,6 +29,8 @@ git status
  
  git log --oneline
  
+ ![GitLogOneline](https://github.com/WraSouza/ComandosGit/assets/15219047/630e036c-ad64-4a5d-85bc-a4f76e324ba8)
+
 ## Buscar Commits por Data
 É possível buscar commits antes ou depois de uma determinada data
 
@@ -39,7 +41,6 @@ Ex.: git log --before="2023-05-03"
 DEPOIS: 
 git log --after="data_desejada"
 Ex.: git log --before="2023-05-03"
-
  
 ## Renomear nome do Arquivo pelo Git
  
