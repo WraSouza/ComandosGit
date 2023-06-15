@@ -54,6 +54,20 @@ Ex.: git log --before="2023-05-03"
  git rm nome_do_arquivo
  
  Obs.: É necessário realizar o commit depois de deletar o arquivo
+
+## Alternando entre Commits
+
+Você pode "viajar" entre os commits para verificar situação dos arquivos/pastas em um determinado commit. Para isso, basta digitar o seguite comando:
+
+git checkout "hash_do_commit_desejado"
+
+Na imagem abaixo, é possível visualizar o hash dos commits
+
+ ![Screenshot_4](https://github.com/WraSouza/ComandosGit/assets/15219047/e6d1f00e-33e3-408b-b25c-55c6dff0e013)
+
+ No momento atual, estamos no commit 796f282. Se desejarmos navegar para o commit f35f2a1, o comando é como mostrado na imagem abaixo.
+
+ ![Screenshot_1](https://github.com/WraSouza/ComandosGit/assets/15219047/ebb845ac-2e10-44fa-bc5a-bd9df553355e)
  
 ## Verificar o que foi alterado
  
@@ -64,7 +78,7 @@ Ex.: git log --before="2023-05-03"
 ## Verificar diferença entre o estado atual e um determinado commit
  
  git diff hash_id_do_commit_desejado
- 
+
 ## Verificar diferença entre dois commits, que não seja o atual
  
  git diff hashid_commit_mais_antigo..hashid_commit_mais_novo
