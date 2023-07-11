@@ -93,4 +93,11 @@ Na imagem abaixo, é possível visualizar o hash dos commits
 
  Este comando fará com que todos os arquivos que tiveram modificações, retornem ao status do último commit.
 
+ Obs.: Este comando deve ser utilizado com os arquivos antes da fase de staged.
+
+ ## Revertendo Commits
+ git reset HEAD^ --hard
+
+ Depois de todos os arquivo serem comitados, digitando o comando, você irá retornar ao penúltimo commit.
+
 
