@@ -88,4 +88,9 @@ Na imagem abaixo, é possível visualizar o hash dos commits
  
  git commit --amend -m "frase_qualquer_de_identificação"
 
+ ## Reverter Alterações
+ git reset HEAD --hard
+
+ Este comando fará com que todos os arquivos que tiveram modificações, retornem ao status do último commit.
+
 
