@@ -74,7 +74,10 @@ Na imagem abaixo, é possível visualizar o hash dos commits
  
  git diff --staged
  
- *Isso irá mostrar o que foi alterado antes de ser commitado. Pode ajudar o desenvolvedor a ver o que tem de diferente antes de realizar o commit.
+ Isso irá mostrar o que foi alterado quando o arquivo tiver sido commitado. Pode ajudar o desenvolvedor a ver o que tem de diferente antes de realizar o commit.
+ Para verificar alterações antes do commit, basta digitar:
+
+ git diff
  
 ## Verificar diferença entre o estado atual e um determinado commit
  
